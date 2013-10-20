@@ -58,7 +58,7 @@ a:link, a:visited {
 }
 
 a:hover {
-	color: #fff;
+	color: #000;
 }
  
 a:active {
@@ -125,3 +125,160 @@ article {
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
+
+/*------------------------about me paragraph------*/
+.aboutme {
+	float: left;
+	margin-left: 0px;
+	font-family: gillsansmt;
+	width: 350px;
+	font-size: 12px;
+}
+p { padding-bottom: 5px; }
+/*-------------------------about me paragraph 2---------*/
+.aboutme2 {
+	float: right;
+	margin-left: 20px;
+	font-family: gillsansmt;
+	width: 350px;
+	font-size: 12px;
+}
+p { padding-bottom: 5px; }
+/*------------------------contact me paragraph-----*/
+
+.contacttitle {
+font-family: gillsansmt;
+font-size: 25px;
+text-align: center;
+}
+
+
+.contactparagraph {
+margin-left: 15px;
+margin-right: 15px;
+font-family: gillsansmt;
+text-align: center; 
+}
+
+/*-----------------------portfolio------------*/
+section a#portraits {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	background: url('images/bgportraitslink.jpg') no-repeat;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	font-family: gillsansmt;
+	line-height: 200px;
+	
+}
+a#food {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-bottom: 20px;
+	background: url('images/bgcookieslink.jpg') no-repeat;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	font-family: gillsansmt;
+	line-height: 200px;
+}
+a#weddings {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	background: url('images/bgkissylink.jpg') no-repeat;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	font-family: gillsansmt;
+	line-height: 200px;
+}
+a#travels {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-bottom: 20px;
+	background: url('images/bg-brooklyn-link.jpg') no-repeat;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	font-family: gillsansmt;
+	line-height: 200px;
+}
+a#showers {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	background: url('images/bgmotherandsonlink.jpg') no-repeat;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	font-family: gillsansmt;
+	line-height: 200px;
+}
+a#published {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-bottom: 20px;
+	background: url('images/bgcheflink.jpg') no-repeat;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	font-family: gillsansmt;
+	line-height: 200px;
+}
+a.dark-link {
+	color: #696969;
+}
+/* --------------------------------------- Portfolio Gallery */
+#gallery {
+	padding: 10px;
+}
+#gallery ul { list-style: none; }
+#gallery ul li { display: inline; }
+#gallery ul img {
+	border: 5px solid #3e3e3e;
+	border-width: 5px 5px 20px;
+}
+#gallery ul a:hover img {
+	border: 5px solid #e1e1e1;
+	border-width: 5px 5px 20px;
+	color: #fff;
+}
+#gallery ul a:hover { color: #fff; }
+
+
+article {
+	width: 760px;
+	float: right;
+	margin-right: 20px;
+}
+
+footer {
+	height: 150px;
+	background-color: #ffff;
+	text-align: center;
+	border-top: 1px solid #000;
+	font-family: times;
+	padding-top: 30px;
+}
+footer li {
+	display:inline;
+}
+.clear {
+	clear: both;
+}
+
