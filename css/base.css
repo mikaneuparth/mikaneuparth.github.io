@@ -1,25 +1,127 @@
-* {
-    box-sizing: border-box;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-h1 {
-    color: #ff4100;
-    font-size: 40px;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-h2 {
-    font-size: 22px;
-    color: #00215a;
+body {
+	font-family: helvetica;
 }
 
-p {
-    font-family: arial, helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 24px; 
+/*---------------------------------------------- global styles */
+a:link, a:visited {
+	color: #000;
+	text-decoration: none;
 }
 
-img {
-    border: 5px solid #cccccc;
-    margin: 0 5% 0 %5;
-    padding: 1%; /* TRouBLe */
-    width: 90%;
+a:hover {
+	color: #fff;
+}
+ 
+a:active {
+	color: #000;
+}
+nav {
+	width: 100px;
+	float: left;
+	font-family: gillsansmt;
+}
+nav a:link, a:visited {
+	border-radius: 50%;
+  	width: 100px;
+  	height: 100px; 
+  	display:block;
+  	background-color: #000;
+  	color: #fff;
+  	text-align: center;
+  	margin-bottom: 60px;
+  	margin-left:40px;
+  	line-height: 100px;
+  	font-family: gillsansmt;
+}
+nav a:hover {
+	color: #000;
+	background-color: #e1e1e1;
+}
+nav a:active {
+	color: #000;
+}
+
+/*---------------------------------------------- layout elements */
+wrapper {
+	background-color: #ffff;
+	width: 960px;
+	margin: 0 auto;
+}
+
+header{
+	height: 75px;
+	background-color: #ffff;
+	font-family: script;
+	float: center;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+article { 
+    margin: 50px; 
+    float: right; 
+    width: 725px; 
+    height: 500px; 
+    padding: 20px; 
+}
+
+.footer{
+    height: 75px;
+    background-color: #ffff;
+    font-family: script;
+    float: center;
+    margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
