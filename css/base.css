@@ -1,57 +1,11 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+/* global styles */
 
 body {
-	font-family: helvetica;
+    background-position:left top;
+    background-attachment:fixed;
+    font-family:"Palatino Linotype","Book Antiqua", Palatino, serif;
 }
 
-/*---------------------------------------------- global styles */
 a:link, a:visited {
 	color: #000;
 	text-decoration: none;
@@ -64,221 +18,145 @@ a:hover {
 a:active {
 	color: #000;
 }
-nav {
-	width: 100px;
-	float: left;
-	font-family: gillsansmt;
-}
-nav a:link, a:visited {
-	border-radius: 50%;
-  	width: 100px;
-  	height: 100px; 
-  	display:block;
-  	background-color: #000;
-  	color: #fff;
-  	text-align: center;
-  	margin-bottom: 60px;
-  	margin-left:40px;
-  	line-height: 100px;
-  	font-family: gillsansmt;
-}
-nav a:hover {
-	color: #000;
-	background-color: #e1e1e1;
-}
-nav a:active {
-	color: #000;
-}
 
-/*---------------------------------------------- layout elements */
-wrapper {
-	background-color: #ffff;
-	width: 960px;
-	margin: 0 auto;
-}
+/*header*/
 
-header{
-	height: 75px;
-	background-color: #ffff;
-	font-family: script;
-	float: center;
-	font-size: 50px;
+header {
+	height: 115px;
+	background-color: #FFFFFF;
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 0px;
 	margin-bottom: 20px;
 }
 
-article { 
-    margin: 50px; 
-    float: right; 
-    width: 725px; 
-    height: 500px; 
-    padding: 20px; 
+img.banner {
+	background-color: #FFFFFF;
+	width: 960px;
+    height: 115px;
+	margin: left;
 }
 
-.footer{
-    height: 75px;
-    background-color: #ffff;
-    font-family: script;
+/*nav rules*/
+
+nav{
+    width: 1200px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: center;
+    margin-left: 315px;
+}
+
+nav li {
+    height: 70px;
+    line-height: 25px;
+    float: left;
+    padding: 0px 5px;
+    color:#FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:link, nav a:visited {
+    font-size: 17px;
+    border: 2px solid #2D3F88;
+    background-color: #FFFFFF;
+    width: 125px;
+    display: block;
+    text-align: center;
+    border-radius: 125px;
+    height: 80px;
+    padding-top: 45px;
+}
+
+nav a:hover {
+    text-decoration:none;
+    background:#99BBF8;
+    color:#000;
+}
+
+article {
     float: center;
-    margin-top: 20px;
-	margin-left: 20px;
-	margin-bottom: 20px;
 }
 
-/*------------------------about me paragraph------*/
-.aboutme {
+img.skydive {
+    padding-top: 80px;  
+    margin: center;
+    width: 1200px; 
+    height: 600px; 
+}
+
+/*footer*/
+
+footer {
+    height: 75px;
+    background-color: #FFFFFF;
+    float: center;
+    margin-top: 25px;
+	margin-left: 0px;
+    margin-right: 0px;
+	margin-bottom: 20px;
+    text-align: center;
+	border-top: 1px solid #99BBF8;
+	padding-top: 25px;
+}
+
+footer li {
+	display:inline;
+    list-style-type:none;
+    padding:0px 10px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-color:#99BBF8;
+    text-decoration-color: #000;
+}
+
+footer ul {
+    margin:0;
+    padding:10;
+}
+
+/*about me paragraph*/
+
+aboutme {
 	float: left;
 	margin-left: 0px;
 	font-family: gillsansmt;
 	width: 350px;
 	font-size: 12px;
 }
-p { padding-bottom: 5px; }
-/*-------------------------about me paragraph 2---------*/
-.aboutme2 {
+
+p { padding-bottom: 5px; 
+}
+
+/*about me paragraph 2*/
+
+aboutme2 {
 	float: right;
 	margin-left: 20px;
 	font-family: gillsansmt;
 	width: 350px;
 	font-size: 12px;
 }
-p { padding-bottom: 5px; }
-/*------------------------contact me paragraph-----*/
 
-.contacttitle {
-font-family: gillsansmt;
-font-size: 25px;
-text-align: center;
+p { 
+    padding-bottom: 5px;
 }
 
+/*contact me paragraph*/
 
-.contactparagraph {
-margin-left: 15px;
-margin-right: 15px;
-font-family: gillsansmt;
-text-align: center; 
-}
-
-/*-----------------------portfolio------------*/
-section a#portraits {
-	width: 300px;
-	height: 200px;
-	float: left;
-	margin-right: 40px;
-	margin-bottom: 20px;
-	margin-left: 30px;
-	background: url('images/bgportraitslink.jpg') no-repeat;
-	text-transform: uppercase;
-	font-size: 40px;
-	text-align: center;
-	font-family: gillsansmt;
-	line-height: 200px;
-	
-}
-a#food {
-	width: 300px;
-	height: 200px;
-	float: left;
-	margin-bottom: 20px;
-	background: url('images/bgcookieslink.jpg') no-repeat;
-	text-transform: uppercase;
-	font-size: 40px;
-	text-align: center;
-	font-family: gillsansmt;
-	line-height: 200px;
-}
-a#weddings {
-	width: 300px;
-	height: 200px;
-	float: left;
-	margin-right: 40px;
-	margin-bottom: 20px;
-	margin-left: 30px;
-	background: url('images/bgkissylink.jpg') no-repeat;
-	text-transform: uppercase;
-	font-size: 40px;
-	text-align: center;
-	font-family: gillsansmt;
-	line-height: 200px;
-}
-a#travels {
-	width: 300px;
-	height: 200px;
-	float: left;
-	margin-bottom: 20px;
-	background: url('images/bg-brooklyn-link.jpg') no-repeat;
-	text-transform: uppercase;
-	font-size: 40px;
-	text-align: center;
-	font-family: gillsansmt;
-	line-height: 200px;
-}
-a#showers {
-	width: 300px;
-	height: 200px;
-	float: left;
-	margin-right: 40px;
-	margin-bottom: 20px;
-	margin-left: 30px;
-	background: url('images/bgmotherandsonlink.jpg') no-repeat;
-	text-transform: uppercase;
-	font-size: 40px;
-	text-align: center;
-	font-family: gillsansmt;
-	line-height: 200px;
-}
-a#published {
-	width: 300px;
-	height: 200px;
-	float: left;
-	margin-bottom: 20px;
-	background: url('images/bgcheflink.jpg') no-repeat;
-	text-transform: uppercase;
-	font-size: 40px;
-	text-align: center;
-	font-family: gillsansmt;
-	line-height: 200px;
-}
-a.dark-link {
-	color: #696969;
-}
-/* --------------------------------------- Portfolio Gallery */
-#gallery {
-	padding: 10px;
-}
-#gallery ul { list-style: none; }
-#gallery ul li { display: inline; }
-#gallery ul img {
-	border: 5px solid #3e3e3e;
-	border-width: 5px 5px 20px;
-}
-#gallery ul a:hover img {
-	border: 5px solid #e1e1e1;
-	border-width: 5px 5px 20px;
-	color: #fff;
-}
-#gallery ul a:hover { color: #fff; }
-
-
-article {
-	width: 760px;
-	float: right;
-	margin-right: 20px;
+contacttitle {
+    font-family: gillsansmt;
+    font-size: 25px;
+    text-align: center;
 }
 
-footer {
-	height: 150px;
-	background-color: #ffff;
-	text-align: center;
-	border-top: 1px solid #000;
-	font-family: times;
-	padding-top: 30px;
+contactparagraph {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: gillsansmt;    text-align: center; 
 }
-footer li {
-	display:inline;
-}
-.clear {
-	clear: both;
-}
-
