@@ -1,5 +1,4 @@
 /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,35 +16,39 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* global styles */
-
 body {
     background-position:left top;
     background-attachment:fixed;
@@ -53,20 +56,19 @@ body {
 }
 
 a:link, a:visited {
-	color: #000;
-	text-decoration: none;
+	color: #2D3F88;
 }
 
 a:hover {
-	color: #000;
+	color: #99BBF8;
+    text-decoration: none;
 }
- 
+
 a:active {
 	color: #000;
 }
 
 /*header*/
-
 header {
 	height: 115px;
 	background-color: #FFFFFF;
@@ -83,11 +85,11 @@ img.banner {
 }
 
 /*nav rules*/
-
 nav{
     width: 1200px;
     text-align: center;
     background-color: #FFFFFF;
+    font-family: 'Amatic SC';
 }
 
 nav ul {
@@ -108,7 +110,7 @@ nav li {
 }
 
 nav a:link, nav a:visited {
-    font-size: 17px;
+    font-size: 30px;
     border: 2px solid #2D3F88;
     background-color: #FFFFFF;
     width: 125px;
@@ -125,10 +127,7 @@ nav a:hover {
     color:#000;
 }
 
-article {
-    float: center;
-}
-
+/*homepage image*/
 img.skydive {
     padding-top: 80px;
     margin-left: 15px;
@@ -137,8 +136,15 @@ img.skydive {
     height: 600px; 
 }
 
-/*footer*/
+/*aboutme image*/
+.textwrap {
+	padding:0px;
+    border-style:dotted;
+	border-color:#99BBF8;
+	border-width:7px;
+}
 
+/*footer*/
 footer {
     height: 75px;
     background-color: #FFFFFF;
@@ -167,43 +173,31 @@ footer ul {
     padding:10;
 }
 
-/*about me paragraph*/
-
-aboutme {
-	float: left;
-	margin-left: 0px;
-	font-family: gillsansmt;
-	width: 350px;
-	font-size: 12px;
-}
-
-p { padding-bottom: 5px; 
-}
-
-/*about me paragraph 2*/
-
-aboutme2 {
-	float: right;
-	margin-left: 20px;
-	font-family: gillsansmt;
-	width: 350px;
-	font-size: 12px;
-}
-
-p { 
+/*article formatting*/
+article {
+    padding-top: 165px;
+    margin-left: 40px;
+    margin-right: 40px;
+	font-size: 15px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     padding-bottom: 5px;
 }
 
-/*contact me paragraph*/
-
-contacttitle {
-    font-family: gillsansmt;
-    font-size: 25px;
-    text-align: center;
+p {
+    text-align:justify;
+    text-indent:30px;
 }
 
-contactparagraph {
-    margin-left: 15px;
-    margin-right: 15px;
-    font-family: gillsansmt;    text-align: center; 
+h1 {
+    font-family: 'Amatic SC';
+    font-size: 30px;
+    color: #99BBF8;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Amatic SC';
+    font-size: 22px;
+    color: #99BBF8;
+    text-decoration: none;
 }
