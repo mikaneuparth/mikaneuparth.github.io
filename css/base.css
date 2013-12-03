@@ -144,6 +144,30 @@ img.skydive {
 	border-width:7px;
 }
 
+/*soundslides1*/
+.textwrap2 {
+    padding: 0px;
+    margin-right: 20px;
+    float: clear;
+    float: left;
+}
+
+/*soundslides2*/
+.textwrap3 {
+    padding: 0px;
+    float: clear;
+    float: right;
+    margin-left: 20px;
+}
+
+/*multimedia*/
+.textwrap4 {
+    padding: 0px;
+    float: clear;
+    float: left;
+    margin-right: 20px;
+}
+
 /*footer*/
 footer {
     height: 75px;
