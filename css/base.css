@@ -46,6 +46,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+    float: center;
 }
 
 /* global styles */
@@ -166,6 +167,15 @@ img.skydive {
     float: clear;
     float: left;
     margin-right: 20px;
+}
+
+/*photos*/
+.textwrap5 {
+    padding: 20px;
+    border: 1px #000;
+    float: clear;
+    float: left;
+    text-align: left;
 }
 
 /*footer*/
