@@ -178,6 +178,18 @@ img.skydive {
     text-align: left;
 }
 
+/*contactme photo*/
+.textwrap6 {
+    padding: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: clear;
+    float: left;
+    border-style:dotted;
+	border-color:#99BBF8;
+	border-width:7px;
+}
+
 /*footer*/
 footer {
     height: 75px;
