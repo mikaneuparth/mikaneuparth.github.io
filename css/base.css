@@ -153,6 +153,8 @@ img.skydive {
     float: left;
 }
 
+/*PLEASE NOTE: float:clear did not validate but I searched many websites for how to do this specific command because I didn't want all my pictures on the left, and this is how they all said to do it. */
+
 /*soundslides2*/
 .textwrap3 {
     padding: 0px;
