@@ -247,3 +247,40 @@ h2 {
     color: #99BBF8;
     text-decoration: none;
 }
+
+/*media queries*/
+
+/*Please note: I could not for the life of me figure out how to make my homepage image and navigation web responsive without completely ruining the CSS and it wouldn't validate so I just took it out*/
+
+@media screen and (max-width: 600px) {
+    
+body {
+    padding: 3%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav {
+    border: 10;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+    
+#content {
+    clear: left;
+    margin-left: 0;
+    width: 100%;
+}
+}
